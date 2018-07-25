@@ -806,6 +806,7 @@ Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
   [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered posts/show.html.erb within layouts/application (4.5ms)
+<<<<<<< HEAD
 Completed 200 OK in 537ms (Views: 498.6ms | ActiveRecord: 0.3ms)
   [1m[35m (8.7ms)[0m  rollback transaction
   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
@@ -856,3 +857,5 @@ Processing by PostsController#show as HTML
   Rendered posts/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
   [1m[35m (0.3ms)[0m  rollback transaction
+=======
+>>>>>>> c3b424ed373d773da74ed6c3a1fb0816b441f981
